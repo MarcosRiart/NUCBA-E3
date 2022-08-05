@@ -89,14 +89,14 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #fefda6ab;
+    background-color: #daffc9;
     border-bottom: 1px solid #b3b274ab;
 }
 
 .texto-info-marca{
     font-family: 'Permanent Marker';
     width: 60%;
-    color: #afad32;
+    color: #3ead0bcc;
     font-weight: lighter;
     opacity: 75%;
 }
