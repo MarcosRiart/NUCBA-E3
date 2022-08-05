@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #dceafcde;
+    border-bottom: 1px solid #c0cbdb;
+    position: sticky;
+    width: 100%;
+    padding: 5px;
+    z-index: 100;
+    top: 0;
+}
+
+#secciones a{
+    padding: 0px 15px;
+    font-size: 20px;
+    color: #74a7e4;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+#portada{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ffdece;
+    width: 100%;
+    font-family: 'Permanent Marker';
+    border-bottom: 1px solid #e1c4b5;
+}
+
+.logoPortada{
+    padding: 50px;
+    width: 270px;
+    height: 270px;
+}
+
+.formulario-sub{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: #B0272B;
+}
+
+.inputs-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    outline: none;
+    border: 2.8px solid #B0272B;
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+    background-color: #ffffff;
+}
+
+.inputs-form input{
+    border: none;
+    outline: none;
+    margin: 5px;
+}
+
+.input-submit{
+    background-color: #B0272B;
+    color: #ffdece;
+    padding: 7px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.input-texto{
+    padding-top: 20px;
+}
+
