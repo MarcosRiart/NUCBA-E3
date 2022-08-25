@@ -19,6 +19,7 @@ nav{
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 9999999;
 }
 
 #top-info{
@@ -100,38 +101,40 @@ nav{
 }
 
 #formulario-off{
+    position: relative;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    width: 100%;
-    font-weight: 400;
+    margin: 20px;
 }
 
-.logoPortada{
-    padding: 50px;
-    width: 270px;
-    height: 270px;
+.banner-off{
+    width: 100%;
 }
 
 .formulario-sub{
+    position: absolute;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
     justify-content: center;
     color: #000000;
+    gap: 50px;
+    text-shadow: 1px  0px 0px #ffffff,
+                 0px  1px 0px #ffffff,
+                 -1px  0px 0px #ffffff,
+                 0px -1px 0px #ffffff;
+    font-family: 'Open Sans';
 }
 
 .inputs-form{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    position: absolute;
+    justify-content: center;
     outline: none;
     border: 2.8px solid #000000;
     border-radius: 10px;
-    width: 300px;
-    height: 40px;
     background-color: #ffffff;
 }
 
@@ -150,6 +153,56 @@ nav{
     font-family: 'Permanent Marker';
 }
 
-.input-texto{
-    padding-top: 20px;
+.texto-portada{
+    font-size: 2.2rem;
+}
+
+#contact-us{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 15px;
+}
+
+.listas-contactos-redes{
+    display: flex;
+    flex-direction: column;
+}
+
+.listas-ubicacion-contactos{
+    display: flex;
+    flex-direction: row;
+}
+
+.lista-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    list-style-type: none;
+    gap: 3px;
+}
+
+.link-lista-contact{
+    color: #212529;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.lista-redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid rgba(0,0,0,.125);
+    background-color: rgba(0, 0, 0, 0.027);
 }
