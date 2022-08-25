@@ -40,12 +40,20 @@ nav{
     padding: 0px 15px 0px 0px;
 }
 
-#secciones-nav a{
+.link-nav{
     padding: 0px 15px;
     font-size: 20px;
     color: #000000;
     text-decoration: none;
     font-weight: 400;
+}
+
+.link-nav:hover{
+    transition: all 0.5s linear;
+    border-radius: 20px;
+    color: #ffffff;
+    background-color: #dc3545;
+    transform: scale(1.1);
 }
 
 #banner{
@@ -98,6 +106,14 @@ nav{
     justify-content: center;
     width: 100%;
     border-top: 1px solid rgba(0,0,0,.125);
+}
+
+.btn-product:hover{
+    transition: all 0.5s linear;
+    border-radius: 20px;
+    color: #000000;
+    background-color: #ffffff;
+    transform: scale(1.1);
 }
 
 #formulario-off{
@@ -190,12 +206,23 @@ nav{
     cursor: pointer;
 }
 
+.link-lista-contact:hover{
+    color: #dc3545;
+}
+
 .lista-redes{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 20px;
+}
+
+.iconos-redes:hover{
+    transition: all 0.5s ease;
+    transform: scale(5) 1s;
+    background-color: #dc3545;
+    border-radius: 50%;
 }
 
 #footer{
